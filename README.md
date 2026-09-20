@@ -2,7 +2,7 @@
 
 IT3060 – Human Computer Interaction | Lab Exercise 05
 SLIIT, Year 3, Semester 2, 2026
-Campus: Malabe Campus | Name: Amarasekara A D | IT No: it23547674
+Campus: Malabe Campus | Name: MADAMPE NTS | IT No:   IT23607514
 
 ## Overview
 
@@ -111,4 +111,4 @@ independent-deployment approach described in ADR-001.
 
 ## Repository
 
-https://github.com/helloanupa/fitflow-redesign.git
+
