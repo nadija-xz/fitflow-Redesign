@@ -1,0 +1,21 @@
+{
+  "name": "fitflow-workout-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FitFlow Workout Service — AI-generated plans, drag-and-drop builder. Reads user profile from PostgreSQL, calls the AI Microservice, caches results in Redis.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "firebase-admin": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "fitflow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FitFlow React Native app (mobile) + React Native Web (web client)",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "webpack serve --config webpack.config.js",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "react-native-web": "^0.19.12",
+    "firebase": "^10.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}

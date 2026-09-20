@@ -1,0 +1,21 @@
+{
+  "name": "fitflow-nutrition-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FitFlow Nutrition Service — camera-based logging, dashboards. Uploads meal photos to Cloud Storage, calls the AI Microservice's computer-vision pipeline, writes structured logs to PostgreSQL.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "firebase-admin": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "jest": "^29.7.0"
+  }
+}

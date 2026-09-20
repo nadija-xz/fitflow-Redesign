@@ -1,0 +1,21 @@
+{
+  "name": "fitflow-social-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FitFlow Social Service — feed, challenges, private circles. Writes to Firestore, propagates via the Real-time Layer, triggers FCM push notifications.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "firebase-admin": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "jest": "^29.7.0"
+  }
+}
